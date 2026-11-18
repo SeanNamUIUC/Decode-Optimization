@@ -1,0 +1,9 @@
+# Install PyTorch first, built for CUDA 12.8+ (RTX 50 / sm_120), e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# Triton ships with PyTorch.
+transformers>=4.45
+accelerate
+datasets
+matplotlib
+pandas
+pytest

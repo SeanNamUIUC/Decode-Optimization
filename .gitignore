@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+# profiler reports are large -- keep only the CSV summaries / screenshots
+*.nsys-rep
+*.ncu-rep
+*.sqlite
